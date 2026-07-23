@@ -1,0 +1,38 @@
+import numpy as np
+
+print("S123 Dhruv Yadav")
+print("-------4a. Create a NumPy array-------")
+arr = np.array([10, 25, 5, 40, 15, 60, 35, 80, 55, 20])
+
+print("Original Array:")
+print(arr)
+
+print("-------4b. Create a NumPy array-------")
+print("\nBasic Operations:")
+print("Addition (+5):", arr + 5)
+print("Subtraction (-5):", arr - 5)
+print("Multiplication (*2):", arr * 2)
+print("Division (/2):", arr / 2)
+
+print("-------4c. Create a NumPy array-------")
+print("\nSliced Array (1st to 5th element):")
+print(arr[0:5])
+
+print("-------4d. Create a NumPy array-------")
+names = np.array(["Mango", "Apple", "Banana", "Orange", "Grapes"])
+
+print("\nOriginal String Array:")
+print(names)
+
+sorted_names = np.sort(names)
+
+print("Alphabetically Sorted Array:")
+print(sorted_names)
+
+print("-------4e. Create a NumPy array-------")
+max_value = np.max(arr)
+
+filter_array = arr[arr == max_value]
+
+print("\nMaximum Value:")
+print(filter_array)
